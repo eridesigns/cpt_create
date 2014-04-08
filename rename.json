@@ -1,0 +1,3 @@
+{
+	"cpt.php": "{%= cpt_unique_name %}.php"
+}

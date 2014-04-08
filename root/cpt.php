@@ -36,7 +36,7 @@ function init_{%= preffix %}_{%= cpt_unique_name %}(){
 			'show_in_menu' => true,
 			'has_archive' => '{%= has_archive %}',
 			'query_var' => '{%= query_var %}',
-			//'menu_icon' => get_template_directory_uri().'/images/team.png',
+			//'menu_icon' => get_template_directory_uri().'/images/{%= cpt_unique_name %}.png',
 			'rewrite' => array('slug' => '{%= rewrite %}'),
 		)
 	);
